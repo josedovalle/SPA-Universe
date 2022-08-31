@@ -1,0 +1,36 @@
+#container-home {
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10rem;
+    height: 80vh;
+
+    gap: 2.4rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-home {
+    background-color: transparent;
+    padding: 1.2rem 3.2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+
+    border: 2px solid #FFFFFF;
+    border-radius: .5rem;
+
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btn-home:hover {
+    font-weight: 700;
+
+    box-shadow: inset 2px 2px 4px #fff, inset -2px -2px 4px #fff;
+}
